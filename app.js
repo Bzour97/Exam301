@@ -71,10 +71,14 @@ CarRental.prototype.renderData = function(){
 
 }
 
+// save To Local Storage
+
 function saveToLocalStorage(){
     let stringifed = JSON.stringifed(cars);
     localStorage.setItem('Item' , stringifed)
 }
+
+// read From Local Storage
 
 function readFromLocalStorage(){
     let Item = localStorage.getItem('Item');
