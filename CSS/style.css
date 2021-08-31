@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+body{
+    background-image: url("https://www.itl.cat/pngfile/big/43-438474_2019-chevrolet-camaro-ss-wallpaper-thumbnail-camaro-ss.jpg");
+    background-repeat: no-repeat;
+
+}
+
+header img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    
+}
+
+header h1{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(230, 46, 45);
+}
+
+header{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(36, 36, 36);
+}
+
+#containerLeft{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    width: 500px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(172, 188, 201);
+}
+
+#containerLeft form{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#submit{
+    font-weight: bold;
+    background-color: crimson;
+    width: 400px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+#containerRight{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    width: 900px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    float: right;
+    background-color: rgb(172, 188, 201);
+}
+
+#table{
+    position: relative;
+    border: solid 1px black;
+    top: 30px;
+    left: 30px;
+    margin-left: 500px;
+    padding-left: 500px;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    color: rgb(230, 46, 45);
+    padding-top: 20px;
+}
